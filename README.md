@@ -1,42 +1,49 @@
-# Getting Started
+Getting Started
 
-# INSTALL App
+Install App
 
-## Available Scripts, checar las veriones compatibles de los paquees de react, con las de node, las version de react viene escrita en el package.json file
+Antes de instalar las dependencias, asegúrate de que las versiones de los paquetes de React sean compatibles con la versión de Node.js que estás utilizando. La versión de React utilizada en este proyecto se encuentra especificada en el archivo package.json.
 
-### `npm install`
+Instalación de dependencias
 
-## Run Scripts
+Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
-### `npm start`
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Run Scripts
 
-Para que el hosting pueda subir los archivos necesitamos crear el directorio build
-ejecuta el comando:
+npm start
 
-### `npm run build`
+Inicia la aplicación en modo de desarrollo.
+Abre http://localhost:3000 en tu navegador para verla en ejecución.
 
-Para sincronizar los cambio en firebase
-ejecutaremos el comando :
+Construcción y despliegue
 
-### `firebase deploy --only hosting``
+Para que el hosting pueda subir los archivos, necesitamos generar el directorio build ejecutando el siguiente comando:
 
-### `npm run eject`
+npm run build
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para sincronizar los cambios en Firebase, ejecuta el siguiente comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+firebase deploy --only hosting
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Opción de Eject
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm run eject
 
-### Deployment
+Nota: esta es una operación irreversible. Una vez que ejecutes eject, no podrás revertir los cambios.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Si no estás satisfecho con la herramienta de construcción y las opciones de configuración predeterminadas, puedes ejecutar eject en cualquier momento. Este comando eliminará la dependencia única de react-scripts y copiará todos los archivos de configuración y dependencias transitivas (webpack, Babel, ESLint, etc.) directamente en tu proyecto para que tengas control total sobre ellas.
 
-### `npm run build` fails to minify
+Todos los comandos, excepto eject, seguirán funcionando, pero apuntarán a los scripts copiados, permitiéndote personalizarlos según sea necesario.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+No es obligatorio usar eject. La configuración predeterminada es adecuada para la mayoría de los despliegues pequeños y medianos. Sin embargo, entendemos que esta herramienta puede ser útil si necesitas una mayor personalización.
+
+Deployment
+
+Para más detalles sobre el despliegue, visita: Guía de despliegue de Create React App
+
+Solución de problemas
+
+Si npm run build falla al minificar, consulta la siguiente sección de la documentación oficial:
+Solución de problemas
