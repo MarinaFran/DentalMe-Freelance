@@ -1,52 +1,55 @@
-# 🚀 Getting Started
 
-## 📥 Install App
+# DentalMe Freelance
 
-Antes de instalar las dependencias, asegúrate de que las versiones de los paquetes de React sean compatibles con la versión de Node.js que estás utilizando. La versión de React utilizada en este proyecto se encuentra especificada en el archivo `package.json`.
+## Descripción
+**DentalMe Freelance** es una aplicación diseñada para optimizar la gestión de clínicas dentales. La herramienta ofrece una solución fluida y moderna para administrar citas, pacientes y tratamientos, brindando una experiencia eficiente tanto para profesionales como para pacientes.
 
-### 📌 Instalación de dependencias
-Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
-```sh
-npm install
-```
+## Características
+- **Gestión de citas:** Crea, edita y organiza citas de manera sencilla.
+- **Registro de pacientes:** Almacena y accede rápidamente a los datos de los pacientes.
+- **Interfaz moderna y responsiva:** Diseñada para ofrecer una excelente experiencia de usuario en cualquier dispositivo.
+- **Personalización:** Configura opciones según las necesidades específicas de la clínica.
 
-## 🏃‍♂️ Run Scripts
+## Tecnologías utilizadas
+Este proyecto está desarrollado con las siguientes tecnologías:
+- **JavaScript (73%)**: Lógica principal y funcionalidad dinámica.
+- **SCSS (24.8%)**: Estilos avanzados y diseño responsivo.
+- **HTML (1.9%)**: Estructura de la aplicación.
+- **CSS (0.3%)**: Estilos adicionales.
 
-### ▶️ `npm start`
+## Instalación
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/MarinaFran/DentalMe-Freelance.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd DentalMe-Freelance
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm start
+   ```
 
-Inicia la aplicación en modo de desarrollo.
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador para verla en ejecución.
+## Uso
+1. Abre tu navegador y accede a `http://localhost:3000`.
+2. Explora las funcionalidades para gestionar citas y pacientes.
 
-## 🔧 Construcción y despliegue
+## Contribuciones
+¡Las contribuciones son bienvenidas! Sigue estos pasos para contribuir:
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tu funcionalidad o corrección (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza los cambios y haz commit (`git commit -m "Descripción de cambios"`).
+4. Haz push a tu rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
-Para que el hosting pueda subir los archivos, necesitamos generar el directorio `build` ejecutando el siguiente comando:
-```sh
-npm run build
-```
+## Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-Para sincronizar los cambios en Firebase, ejecuta el siguiente comando:
-```sh
-firebase deploy --only hosting
-```
+---
 
-## ⚠️ Opción de Eject
-
-### 🔄 `npm run eject`
-
-**⚠️ Nota: esta es una operación irreversible. Una vez que ejecutes `eject`, no podrás revertir los cambios.**
-
-Si no estás satisfecho con la herramienta de construcción y las opciones de configuración predeterminadas, puedes ejecutar `eject` en cualquier momento. Este comando eliminará la dependencia única de `react-scripts` y copiará todos los archivos de configuración y dependencias transitivas (webpack, Babel, ESLint, etc.) directamente en tu proyecto para que tengas control total sobre ellas.
-
-Todos los comandos, excepto `eject`, seguirán funcionando, pero apuntarán a los scripts copiados, permitiéndote personalizarlos según sea necesario.
-
-No es obligatorio usar `eject`. La configuración predeterminada es adecuada para la mayoría de los despliegues pequeños y medianos. Sin embargo, entendemos que esta herramienta puede ser útil si necesitas una mayor personalización.
-
-## 🌍 Deployment
-
-Para más detalles sobre el despliegue, visita: [📖 Guía de despliegue de Create React App](https://facebook.github.io/create-react-app/docs/deployment)
-
-## 🛠️ Solución de problemas
-
-Si `npm run build` falla al minificar, consulta la siguiente sección de la documentación oficial:
-[🔍 Solución de problemas](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+Puedes ajustar esta estructura según las características específicas de tu aplicación, como agregar capturas de pantalla, instrucciones para el despliegue en producción o una sección de preguntas frecuentes (FAQ).
