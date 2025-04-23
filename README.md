@@ -51,5 +51,3 @@ Este proyecto está desarrollado con las siguientes tecnologías:
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ---
-
-Puedes ajustar esta estructura según las características específicas de tu aplicación, como agregar capturas de pantalla, instrucciones para el despliegue en producción o una sección de preguntas frecuentes (FAQ).
